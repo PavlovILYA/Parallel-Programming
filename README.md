@@ -7,9 +7,9 @@ The goal is to apply as many parallel methods and utilities as you can to do sim
 
 0.   Simple one-thread function minimum and maximum calculating (main.cpp)
 1.   CreateThread: 
-     - CreateThread + global array 
-     - CreateThread + CriticalSection
-     - CreateThread + global array + CreateEvent
+- CreateThread + global array 
+- CreateThread + CriticalSection
+- CreateThread + global array + CreateEvent
 5.   pthread_create (pthread_create+GlobalArray.cpp)
 6.   thread/mutex (thread.py)
 7.   CreateProcess + files (CreateProcess.cpp, new_process_CreateProcess.cpp)
