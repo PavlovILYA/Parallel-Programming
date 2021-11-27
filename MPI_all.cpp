@@ -63,7 +63,7 @@ int main(int argc, char **argv)
         startwtime = MPI_Wtime();
     }
     
-    // Рассылка количества интервалов всем процессам (в том числе и себе)
+    // Рассылка количества значения шага (в том числе и себе)
     MPI_Bcast(&delta, 1, MPI_DOUBLE, 0, MPI_COMM_WORLD);
 
     if (delta > 50 || delta <= 0)
