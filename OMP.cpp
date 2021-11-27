@@ -75,6 +75,9 @@ int main(int argc, char **argv)
     for (i = 0; i < N; i++)
         localMins[i] = findLocalMin(i, N, delta);
     
+    // Точка синхронизации (на всякий случай)
+#pragma omp barrier
+    
     // Однопоточное сравнение локальных минимумов
     double globalMin = localMins[0];
     for (i = 1; i < N; i++)
