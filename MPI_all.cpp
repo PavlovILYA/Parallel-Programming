@@ -38,15 +38,10 @@ double findLocalMin(double begin, double end, double delta)
  
 int main(int argc, char **argv)
 {
-    int done = 0, myid, numprocs;
-    int namelen;
-    double delta;
+    int myid, numprocs, namelen;
+    double delta, localMin, globalMin;
     char processor_name[MPI_MAX_PROCESSOR_NAME];
     double startwtime = 0.0, endwtime;
-    
-    double localMin, globalMin;
-    
-    int exit = 0;
  
     // Инициализация подсистемы MPI
     MPI_Init(&argc, &argv);
