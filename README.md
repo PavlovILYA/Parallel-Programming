@@ -3,6 +3,7 @@
 ### MEPhI Parallel programming course
 #### The goal is to apply as many parallel methods and utilities as you can to do simple task
 
+
 # Progress
 
 0.   **Simple one-thread function minimum and maximum calculating** *(main.cpp)*
@@ -30,7 +31,7 @@
 - текстовые файлы создаются сами, но нужно указать одинаковый путь к ним в обоих .cpp файлах
 ```
 
-6.   **Message Passing Interface**
+6.   **Message Passing Interface:**
       - MPI_Send + MPI_Recv *(MPI_2.cpp)*
       - MPI_Bcast + MPI_Reduce *(MPI_all.cpp)*
 
