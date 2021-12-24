@@ -38,3 +38,5 @@ MEPhI Parallel programming course
       - MPI_Bcast + MPI_Reduce *(MPI_all.cpp)*
 
 7.   **Open Multi-Processing** *(OMP.cpp)*
+
+8.   **Compute Unified Device Architecture (Nvidia)** *(cuda.cu)*
